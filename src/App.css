@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --bg: #09090b;
+  --pink: #ff8d8d;
+  --yellow: #f7fc0e;
+  --white: #fff;
+  --dark: #030303;
+  --linear-border: linear-gradient(
+    138.34deg,
+    rgba(224, 37, 206, 0.7) -11.36%,
+    rgba(74, 237, 82, 0.7) 51.55%,
+    rgba(189, 36, 230, 0.7) 113.16%
+  );
+  --liner-pink-to-yellow: linear-gradient(
+    97.86deg,
+    #ff8d8d -38.38%,
+    #f7fc0e 71.88%
+  );
+  --radius: 6px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  background-color: var(--bg);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-size: 3.052rem;
+}
+h2 {
+  font-size: 2.441rem;
+}
+h3 {
+  font-size: 1.953rem;
+}
+
+.button {
+  background: var(--liner-pink-to-yellow);
+  font-size: 16px;
+  width: 200px;
+  padding: 0.9rem;
+  border-radius: 6px;
+  color: var(--dark);
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: transform 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px var(--yellow);
+}
+
+@media screen and (max-width: 426px) {
+  h1 {
+    font-size: 2.441rem;
+  }
+  h3 {
+    font-size: 1.563rem;
+  }
+  
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .button {
+    width: 100%;
+  }
+}
