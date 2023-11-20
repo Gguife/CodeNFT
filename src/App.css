@@ -33,6 +33,11 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 3.052rem;
 }
