@@ -1,10 +1,14 @@
 import './App.css';
+//Components
+import Menu from './components/menu/Index';
+import Hero from './components/hero/Index';
 
 function App() {
 
   return (
     <>
-      Testando...
+      <Menu />
+      <Hero />
     </>
   )
 }
