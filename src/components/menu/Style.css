@@ -1,0 +1,39 @@
+header{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1.5rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+nav ul{
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+nav ul li{
+  cursor: pointer;
+  transition: .3s;
+}
+nav ul li:hover{
+  color: var(--yellow);
+}
+
+@media(max-width: 700px){
+  nav{
+    display: none;
+  }
+}
+
+
+
+
+
+
