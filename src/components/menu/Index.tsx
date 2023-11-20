@@ -10,9 +10,9 @@ const Menu = () =>{
       </div>
       <nav>
         <ul>
-          <li>Início</li>
-          <li>NFT</li>
-          <li>Colecionadores</li>
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#nft">NFT</a></li>
+          <li><a href="#colaboradores">Colecionadores</a></li>
         </ul>
       </nav>
     </header>

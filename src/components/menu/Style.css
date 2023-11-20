@@ -18,11 +18,13 @@ nav ul{
   gap: 3rem;
   list-style: none;
 }
-nav ul li{
+nav ul a{
   cursor: pointer;
   transition: .3s;
+  text-decoration: none;
+  color: #FFF;
 }
-nav ul li:hover{
+nav ul a:hover{
   color: var(--yellow);
 }
 
