@@ -1,0 +1,44 @@
+.numberCard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.numberCard-container{
+  background-color: #2B2B2D;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  border: 3px solid var(--yellow);
+  border-radius: 10px;
+}
+
+.line{
+  background-color: var(--yellow);
+  width: 2px;
+  height: 6rem;
+}
+
+.number-1, .number-2, .number-3, .number-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+}
+.number-1 p, .number-2 p, .number-3 p, .number-4 p{
+  font-size: 2rem;
+}
+.number-1 span, .number-2 span, .number-3 span, .number-4 span{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.number-1{
+  padding-left: 5rem;
+}
+.number-4{
+  padding-right: 5rem;
+}
