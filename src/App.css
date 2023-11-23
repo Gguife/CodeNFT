@@ -6,12 +6,6 @@
   --yellow: #f7fc0e;
   --white: #fff;
   --dark: #030303;
-  --linear-border: linear-gradient(
-    138.34deg,
-    rgba(224, 37, 206, 0.7) -11.36%,
-    rgba(74, 237, 82, 0.7) 51.55%,
-    rgba(189, 36, 230, 0.7) 113.16%
-  );
   --liner-pink-to-yellow: linear-gradient(
     97.86deg,
     #ff8d8d -38.38%,
