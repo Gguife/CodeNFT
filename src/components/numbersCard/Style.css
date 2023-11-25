@@ -1,9 +1,7 @@
 .numberCard{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  margin-top: 5rem;
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 1rem;
 }
 
 .numberCard-container{
@@ -11,36 +9,70 @@
   padding: 2rem 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 4rem;
   border: 3px solid var(--yellow);
   border-radius: 10px;
+  font-family: 'Jura', sans-serif;
+}
+
+.numberCard-content{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5rem;
 }
 
 .line{
-  background-color: var(--yellow);
   width: 2px;
-  height: 6rem;
+  height: 5rem;
+  background-color: var(--yellow);
 }
 
-.number-1, .number-2, .number-3, .number-4{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: .4rem;
-  font-family: 'Jura', sans-serif;
+.number-desc p{
+  font-size: 2.5rem;
 }
-.number-1 p, .number-2 p, .number-3 p, .number-4 p{
-  font-size: 3rem;
-  font-weight: 700;
+.number-desc span{
+  font-size: 1.7rem;
 }
-.number-1 span, .number-2 span, .number-3 span, .number-4 span{
-  font-size: 1.3rem;
-  text-transform: uppercase;
+
+.numberCard-slide{
+  display: none;
 }
-.number-1{
-  padding-left: 5rem;
+
+@media (max-width: 1000px) {
+  .numberCard{
+    padding: 2rem;
+  }
+
+  .numberCard-container{
+    display: none;
+  }
+
+  .numberCard-slide{
+    display: block;
+    background-color: #2B2B2D;
+    font-family: 'Jura', sans-serif;
+    border-top: 3px solid var(--yellow);
+    border-radius: 5px;
+  }
+  .numberSlide-content{
+    padding: 2rem;
+    text-align: center;
+  }
+  .numberSlide-content p{
+    font-size: 3.5rem;
+  }
+  .numberSlide-content span{
+    font-size: 3rem;
+  } 
 }
-.number-4{
-  padding-right: 5rem;
+
+@media (max-width: 500px) {
+  .numberSlide-content p{
+    font-size: 2.5rem;
+  }
+  .numberSlide-content span{
+    font-size: 2rem;
+  } 
 }
