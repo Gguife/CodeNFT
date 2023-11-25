@@ -1,30 +1,72 @@
 import "./Style.css";
+import { motion } from "framer-motion";
 
 const NumberCard = () =>{
   return(
-    <div className="numberCard">
+    <motion.div className="box numberCard"
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{
+      duration: 1,
+      delay: .6,
+      ease: [0, 0.71, 0.2, 1.01]
+    }}>
       <div className="numberCard-container">
-        <div className="number-1">
+        <motion.div className="box number-1"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 1,
+            delay: .9,
+            ease: [0, 0.71, 0.2, 1.01]
+        }}>
           <p>300</p>
           <span>Coleções</span>
-        </div>
+        </motion.div>
+
         <div className="line"></div>
-        <div className="number-2">
+        
+        <motion.div className="box number-2"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 1,
+            delay: 1.1,
+            ease: [0, 0.71, 0.2, 1.01]
+        }}>
           <p>+100K</p>
           <span>Usuários</span>
-        </div>
+        </motion.div> 
+        
         <div className="line"></div>
-        <div className="number-3">
+        
+        <motion.div className="box number-3"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 1,
+            delay: 1.3,
+            ease: [0, 0.71, 0.2, 1.01]
+        }}>
           <p>+30K</p>
           <span>Negociações</span>
-        </div>
+        </motion.div>
+        
         <div className="line"></div>
-        <div className="number-4">
+        
+        <motion.div className="box number-4"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 1,
+            delay: 1.5,
+            ease: [0, 0.71, 0.2, 1.01]
+        }}>
           <p>+1M</p>
           <span>Vizualizações</span>
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
