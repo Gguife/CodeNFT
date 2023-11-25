@@ -1,0 +1,25 @@
+#nfts{
+  max-width: 1200px;
+  margin: 6rem auto;
+}
+#nfts .section-title{
+  text-align: center;
+  margin: 4rem 0 2rem 0;
+}
+
+.nfts-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nfts-images img{
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (max-width: 750px) {
+  .nfts-images{
+    flex-direction: column;
+  }
+}
