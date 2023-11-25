@@ -12,7 +12,7 @@ const Hero = () =>{
       animate={{ opacity: 1, scale: 1 }}
       transition={{
         duration: 1,
-        delay: .3,
+        delay: .2,
         ease: [0, 0.71, 0.2, 1.01]
       }}>
         <h1>Descubrar e colete <span>obras de arte</span> digitais super raras</h1>
@@ -25,7 +25,7 @@ const Hero = () =>{
       animate={{ opacity: 1, scale: 1 }}
       transition={{
         duration: 1,
-        delay: .5,
+        delay: .4,
         ease: [0, 0.71, 0.2, 1.01]
       }}>
         <div className="heroTop">
