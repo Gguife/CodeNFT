@@ -76,3 +76,11 @@
     font-size: 2rem;
   } 
 }
+
+
+@media (max-width: 400px) {
+  .numberCard{
+    padding: 1rem;
+    margin: 3rem auto;
+  }
+}
