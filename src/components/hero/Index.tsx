@@ -6,7 +6,7 @@ import HeroNFT from "../../assets/nft-hero.png";
 
 const Hero = () =>{
   return(
-    <section id="hero">
+    <section className="section" id="hero">
       <motion.div className="box contentHero"
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
