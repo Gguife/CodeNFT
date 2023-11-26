@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+<h1 align="center">CodeNFT</h1>
+<p align="center">Landing Page NFTs</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✒️ Sobre
+Desenvolvimento de uma Landing Page de NFTs, visando muito a responsividade, interatividade e beleza da pagina. Aprimorada para uma experiência de usuário mais intuitiva e agradável.
 
-## Expanding the ESLint configuration
+<hr>
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./public/tela.png" width='90%' />
+</h1>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 🛠 Tecnologias
 
-- Configure the top-level `parserOptions` property like this:
+As seguintes ferramentas foram usadas na construção do projeto:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- React
+- TypeScript
+- Framer-motion
+- Swiper
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com). <br>
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/Gguife/planPurchase/new/main?readme=1>
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# O servidor inciará na porta:5173
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
