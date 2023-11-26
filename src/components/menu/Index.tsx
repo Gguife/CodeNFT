@@ -12,7 +12,7 @@ const Menu = () =>{
         <ul>
           <li><a href="#hero">Início</a></li>
           <li><a href="#nft">NFT</a></li>
-          <li><a href="#colaboradores">Colecionadores</a></li>
+          <li><a href="#collection">Colecionadores</a></li>
         </ul>
       </nav>
     </header>
