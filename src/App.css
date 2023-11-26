@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb{
   background-color: var(--yellow);
 }
 
-section{
+.section{
   max-width: 1200px;
   margin: 6rem auto;
 }
@@ -87,8 +87,8 @@ h3 {
   }
   
   .section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 0;
+    margin: 2rem auto;
   }
   .button {
     width: 100%;
