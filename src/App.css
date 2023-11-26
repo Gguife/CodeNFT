@@ -21,11 +21,25 @@
   box-sizing: border-box;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-weight: 400;
   background-color: var(--bg);
   color: var(--white);
   font-family: 'Inter', sans-serif;
+}
+
+body::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: var(--yellow);
 }
 
 section{
