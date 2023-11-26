@@ -16,7 +16,7 @@ import Motion from "../Motion";
 
 const TopNFT = () =>{
   return(
-    <Motion className="section-nft" id="nft">
+    <Motion className="section section-nft" id="nft">
       <motion.h3 variants={item} className={"section-title"}>
         TOP NFTs
       </motion.h3>
