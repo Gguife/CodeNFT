@@ -11,6 +11,8 @@ Desenvolvimento de uma Landing Page de NFTs, visando muito a responsividade, int
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./public/tela.png" width='90%' />
 </h1>
 
+<p>Link: <a href="https://codenft-virid.vercel.app/">CodeNFT</a></p>
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
